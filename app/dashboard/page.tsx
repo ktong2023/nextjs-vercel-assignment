@@ -78,7 +78,7 @@ export default async function DashboardPage() {
                         marginTop: "28px",
                     }}
                 >
-                    <Link href="/">Return home</Link>
+                    <Link href="/resources">View health resources</Link>
                     <Link href="/profile">Edit profile</Link>
                 </nav>
                 <LogoutButton />

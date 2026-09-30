@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
+import Link from "next/link";
 
 export default function LoginPage() {
     const [errorMessage, setErrorMessage] = useState("");
@@ -70,6 +71,12 @@ export default function LoginPage() {
                 >
                     {isLoading ? "Redirecting..." : "Continue with Google"}
                 </button>
+
+                <div style={{ marginTop: "20px" }}>
+                    <Link href="/resources">
+                        Browse public health resources
+                    </Link>
+                </div>
 
                 {errorMessage && (
                     <p style={{ marginTop: "16px", color: "#b42318" }}>
