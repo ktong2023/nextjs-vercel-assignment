@@ -48,10 +48,10 @@ export default function LoginPage() {
                     textAlign: "center",
                 }}
             >
-                <h1>Sign in</h1>
+                <h1>Sign in to Plate Mate</h1>
 
                 <p style={{ color: "#667085", marginBottom: "24px" }}>
-                    Sign in to access your profile and protected pages.
+                    Sign in to upload your plates and vote on pairings.
                 </p>
 
                 <button
@@ -73,8 +73,8 @@ export default function LoginPage() {
                 </button>
 
                 <div style={{ marginTop: "20px" }}>
-                    <Link href="/resources">
-                        Browse public health resources
+                    <Link href="/">
+                        Browse top-rated pairings
                     </Link>
                 </div>
 
